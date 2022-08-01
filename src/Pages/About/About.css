@@ -1,0 +1,143 @@
+.About-parent 
+{
+    margin: 150px 0px;
+    overflow: hidden;
+    padding: 20px 0px;
+}
+.About-parent h2 
+{
+    color: #f5b70a;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.About-parent p 
+{
+    color: white;
+ 
+    font-size: 15px;
+    line-height: 1.9;
+}
+.About-parent .About-content h4
+{
+color: white;
+margin-bottom: 15px;    
+}
+.single-feature 
+{
+    margin-top: 5px;
+}
+.About-parent .single-feature span
+{
+width: 50px;
+height: 50px;
+border-radius: 50%;
+background-color: #ff7d6b;
+display: flex;
+align-items: center;
+color: white !important;
+justify-content: center;
+margin-bottom: 10px;
+}
+.single-feature h6 
+{
+    color: #f5b70a;
+    margin-top: 0px;
+}
+.single-feature p 
+{
+    font-size: 0.7rem;
+}
+.single-feature span i 
+{
+    font-size: 1.5rem;
+}
+ .single-feature  .feature-icon-two
+{
+    background: #2ace92 !important;
+}
+.single-feature  .feature-icon-3 
+{
+    background: #f5b70a !important;
+}
+.single-feature  .feature-icon-4
+{
+background: #7865ff !important;
+}
+
+@media screen and (max-width:990px ) and (min-width:540px ) {
+    .About-parent
+    {
+        margin: 0px;
+        padding:0px ;
+    }
+    .About-parent h2 
+    {
+        font-size: 20px;
+    }
+    .About-parent p 
+    {
+        font-size: 15px;
+    }
+
+    .single-feature p 
+    {
+        font-size: 0.6rem;
+    }   
+    .About-parent .single-feature span
+{
+width: 40px;
+height: 40px;
+border-radius: 50%;
+
+margin-bottom: 10px;
+}
+.single-feature span i 
+{
+    font-size: 1rem;
+}
+.single-feature 
+{
+    margin-top: 0px;
+}
+
+}
+@media screen and (max-width:540px ) {
+    .About-parent
+    {
+        margin: 0px;
+        padding:30px ;
+    }
+    .About-parent h2 
+    {
+        font-size: 20px;
+    }
+    .About-parent h4 
+    {
+        margin-top: 50px;
+    }
+    .About-parent p 
+    {
+        font-size: 15px;
+    }
+
+    .single-feature p 
+    {
+        font-size: 0.6rem;
+    }   
+    .About-parent .single-feature span
+{
+width: 40px;
+height: 40px;
+border-radius: 50%;
+
+margin-bottom: 10px;
+}
+.single-feature span i 
+{
+    font-size: 1rem;
+}
+.single-feature 
+{
+    margin-top: 0px;
+}
+
+}

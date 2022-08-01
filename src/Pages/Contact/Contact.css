@@ -1,0 +1,68 @@
+.contact-parent
+{
+    margin-top: 15%;
+    margin-bottom: 8%;
+}
+.contact-parent h2 
+{
+    color: #f5b70a;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+.contact-parent h5 
+{
+    margin-bottom: 40px;
+}
+.contact-parent .logo span 
+{
+color: white !important;
+margin-right: 5px;
+}
+.contact-parent .logo p 
+{
+    line-height: 1.7;
+    color: white;
+    font-size: 0.8rem;
+}
+.contact-parent ul 
+{
+    padding: 0px !important;
+}
+.contact-parent li 
+{
+    list-style: none;
+    color: #cecece;
+    padding: 0px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.contact-parent .footer-link-title
+{
+    color: white;
+}
+.footer-link-title .link-item
+{
+    padding: 0px;
+
+}
+.link-item i 
+{
+    margin-right: 20px;
+}
+.footer-bottom
+
+{
+    background-color: #141124;
+    padding: 20px 0px; 
+    text-align: center;
+    margin-top: 50px;
+}
+.footer-bottom p 
+{
+    color: white;
+    margin-bottom: 0px;
+    font-size: .9rem;
+}

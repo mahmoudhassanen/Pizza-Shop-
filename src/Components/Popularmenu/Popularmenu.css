@@ -1,0 +1,173 @@
+.Popularmenu 
+{
+    margin-bottom: 30px;
+    margin-top: 70px;
+}
+.Popularmenu h2
+{
+color: #f5b70a;
+margin-top: 20px;
+}
+.single-product
+{
+    background-color: #141124;
+    border-radius: 10px;
+    cursor:pointer;
+}
+.single-product:hover{
+    box-shadow: 5px 5px 10px -5px #f5b70a;
+}
+ .fa-star 
+{
+    color: #f76e11 !important;
+    font-size: 10px;
+    padding: 2px;
+}
+.product-content 
+{
+    padding: 0px 20px;
+    padding-bottom: 15px;
+}
+.product-content h6{
+    color: #f5b70a;
+    text-align: center;
+    text-transform: capitalize;
+}
+ .price 
+ {
+    color: white;
+ }
+ .price span 
+{
+    color: #f5b70a;
+    font-size: 1.1rem;
+    font-weight: 500;
+
+}
+.shopping-cart
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #f76e11;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white !important;
+    cursor: pointer;
+
+}
+ @media screen and (max-width:990px) and (min-width:540px)
+
+ {
+    .Popularmenu
+    {
+        margin-bottom: 30px;
+    }
+    .single-product{
+        margin-bottom: 30px;
+
+    }
+    
+}
+@media screen and  (max-width:540px) 
+
+ {
+
+    .Popularmenu
+    {
+        margin-bottom: 30px;
+    } 
+    /* .Popularmenu img 
+    {
+        width: 80% !important;
+    } */
+    .Popularmenu h2 
+    {
+        margin-left: 40px;
+    }
+    .single-product{
+        margin-bottom: 30px;
+        margin-left: 110px;
+        width: 60%;
+
+
+    }
+    .product-content
+    {
+        padding: 0px;
+        padding-bottom: 20px ;
+    }
+    .one 
+    {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+}
+@media screen and  (max-width:400px)
+{
+    .single-product
+
+    {
+        margin-left: 70px;
+    }
+    .shopping-cart
+{
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    font-size: 15px;
+
+}
+.one
+{
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+} 
+@media screen and  (max-width:290px)
+{
+.single-product
+{
+    margin-left: 20px;
+    margin-right: 30px;
+}
+.shopping-cart
+{
+    width: 20px;
+    height: 20px;
+    font-size: 10px;
+    
+}
+.Popularmenu h2 
+
+{
+    margin-left: 0px;
+}
+.price span 
+{
+    color: #f5b70a;
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+.fa-star
+
+{
+    padding: 0px 2px;
+    margin-bottom: 0px;
+}
+.Popularmenu h6 
+{
+    margin-bottom: 10px;
+}
+.one 
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+}

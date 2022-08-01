@@ -1,0 +1,144 @@
+.Download-parent
+{
+    margin-top: 6rem;
+}
+.Download-parent .container
+{
+    background-color: #f5b70a;
+    border-radius: 10px;
+}
+.app-img
+{
+    margin-bottom: -100px;
+}
+.Download-parent .app-content h2 
+{
+    color: #0a071a;
+    font-weight: 500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Download-parent .app-content p 
+{
+    line-height: 1.8;
+    font-size: 0.8rem;
+    color: white;
+}
+.Download-parent .app-content h5 
+{
+    color: #0a071a;
+}
+.btn-apples
+{
+    border: none;
+    background-color: #0a071a;
+    color: white !important;
+    padding: 7px 25px;
+    border-radius: 5px;
+}
+.app-btns a 
+{
+    text-decoration:none!important;
+    cursor: pointer;
+    color: white !important;
+
+}
+.btn-Google
+{
+    border: none;
+    background-color: white;
+    color: #0a071a !important;
+    padding: 7px 25px;
+    border-radius: 5px;
+}
+.btn-Google a  
+{
+    color: #0a071a !important;
+}
+.app-content
+{
+    padding-top: 50px;
+}
+.btn-apples:hover a 
+{
+    color: white !important;
+}
+.btn-Google:hover a 
+{
+    color: #0a071a !important;
+} 
+@media screen and (max-width:1280px) {
+    .app-btns{
+        margin-bottom: 30px;
+    }
+    .app-img
+{
+    margin-bottom: -90px;
+}
+
+    
+}
+@media screen and (max-width:1024px) {
+    .app-img 
+    {
+        margin-bottom: -37px;
+        margin-top: -100px;
+    }
+}
+@media screen and (max-width:580px) {
+    .Download-parent .container
+    {
+        width: 93% !important ;
+    }
+    .app-img{
+        margin-top: -80px;
+    }
+}
+@media screen and (max-width:400px) {
+    .Download-parent .container
+    {
+        width: 93% !important ;
+    }
+    .app-img{
+        margin-top: -60px;
+    }
+    .btn-apples
+{
+    border: none;
+    background-color: #0a071a;
+    color: white !important;
+    padding: 4px 15px;
+    border-radius: 5px;
+}
+
+.btn-Google
+{
+    border: none;
+    background-color: white;
+    color: #0a071a !important;
+    padding: 4px 15px;
+    border-radius: 5px;
+}
+
+    
+}
+/* @media screen and (max-width:300) {
+    
+    .btn-apples
+    {
+        border: none;
+        background-color: #0a071a;
+        color: white !important;
+        padding: 4px 15px;
+        border-radius: 5px;
+    }
+    
+    .btn-Google
+    {
+        border: none;
+        background-color: white;
+        color: #0a071a !important;
+        padding: 2px 10px;
+        border-radius: 5px;
+    }
+    
+} */
